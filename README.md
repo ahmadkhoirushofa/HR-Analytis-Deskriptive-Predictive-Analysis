@@ -1,4 +1,17 @@
-## HR Analytis
-Pengelolaan sumber daya manusia yang efektif menuntut perusahaan untuk mampu mengidentifikasi talenta terbaik secara objektif dan transparan guna mendukung kemajuan organisasi. Melalui pendekatan berbasis data, manajemen dapat mengevaluasi berbagai faktor penentu kenaikan jabatan, mulai dari riwayat performa kerja, perolehan penghargaan, hingga keikutsertaan dalam program pelatihan internal.
+Membangun sistem prediksi berbasis data agar keputusan promosi jabatan karyawan dilakukan secara objektif, transparan, dan tepat sasaran berdasarkan performa dan kualifikasi.
 
-Untuk mengoptimalkan proses pengambilan keputusan tersebut, dikembangkan sebuah model *machine learning* menggunakan algoritma **Random Forest**. Model prediktif ini dirancang untuk memproyeksikan peluang promosi setiap karyawan secara akurat, sehingga perusahaan dapat merumuskan kebijakan pengembangan karier yang lebih adil, terarah, dan berbasis bukti empiris di masa depan.
+## Tools & Alur Pengerjaan
+Proses analisis dan pemodelan dikerjakan menggunakan Python beserta ekosistem Machine Learning-nya:
+
+Pandas & NumPy: Digunakan untuk pre-processing (membersihkan nilai kosong pada rating/skor dan menghapus kolom redundan).
+
+Matplotlib & Seaborn: Digunakan untuk Exploratory Data Analysis (EDA) guna memvisualisasikan korelasi data dan perbandingan promosi antar departemen.
+
+Scikit-Learn: Digunakan untuk membangun dan mengevaluasi model klasifikasi menggunakan algoritma Random Forest.
+
+## Hasil Analisis (EDA)
+Tingkat Promosi: Hanya 8,52% dari 54.808 karyawan yang berhasil dipromosikan.
+
+Skor Pelatihan: Rata-rata skor pelatihan karyawan adalah 63,71.
+
+Terdapat korelasi yang jelas antara skor pelatihan, performa sebelumnya, dan penghargaan terhadap peluang karyawan untuk dipromosikan.
